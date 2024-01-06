@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: rgb(4, 4, 108);
+    color: white;
+    height: 80px;
+    line-height: 80px;
+}
+.choice{
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+img{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    /* border-radius square img ne round ma fervva  */
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 70px;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 30px;
+    gap: 70px;
+}
+#user-score, #computer-score{
+    font-size: 50px;
+}
+.msg-container{
+    margin-top: 50px;
+}
+#msg{
+    background-color: rgb(4, 4, 108) ;
+    color: white;
+    display: inline;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 40px;
+}
