@@ -1,0 +1,11 @@
+h1{
+    background-color: rgb(80, 80, 252);
+    color: white;
+    font-size: 70px;
+    display: inline;
+    padding: 20px;
+    border-radius: 40%;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
